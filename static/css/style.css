@@ -1,0 +1,68 @@
+body{
+    border: 0;
+    margin: 0;
+   background-image: url(https://www.hdwallpaper.nu/wp-content/uploads/2019/01/rick_and_morty-1.png);
+   background-attachment: fixed;
+   background-size: 3000px;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: blueviolet;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+header h1{
+    color: #202329;
+    font-family: monospace;
+    font-size: 2rem;
+}
+header img{
+    width: 10%;
+    height: 100%;
+}
+
+.allContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+}
+.container .character-card{
+    width: 210px;
+    height: 350px;
+    background-color:#111111d8;
+    color: #01df74;
+    font-size: 0.7rem;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 2%;
+    margin:20px;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2,h3,p{
+    text-indent: 6px;
+}
+.container .character-card img{
+    width: 92%;
+    height: 50%;
+    margin-top: 7px;
+}
+#imagePrincipale {
+    padding-top: 100px;
+    background: url(https://img3.looper.com/img/gallery/the-toughest-character-on-rick-and-morty-according-to-fans/l-intro-1606258157.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 799px;
+}
